@@ -1,0 +1,12 @@
+/* google font imported */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* tailwind css & daisy UI */
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
