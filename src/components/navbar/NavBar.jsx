@@ -12,7 +12,7 @@ const NavBar = ({ navDataPromise }) => {
                     <h2 className='text-2xl'>Jamiya <span className='text-blue-500'>Islamiyah</span></h2>
                 </div>
                 {/* navMenu */}
-                <div className='flex justify- gap-5 items-center p-4 '>
+                <div className='flex justify- lg:gap-15 items-center p-4 '>
                     {
                         navData.data.map(item => <Links key={item.id} item={item}></Links>)
                     }
